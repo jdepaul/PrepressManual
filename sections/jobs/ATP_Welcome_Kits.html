@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prepress Manual - ATP Welcome Kits</title>
+	<link href="../../css/pages.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="wrapper">
+  <header class="main-head">
+    <h4 class="page-header">Futch Printing &amp; Mailing Inc.</h4>
+    <h4 class="page-header">PrePress Manual&nbsp;</h4>
+  </header>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="../../index.html">Main Page</a></li>
+      <li><a href="../../index.html">Nav 2</a></li>
+      <li><a href="">Nav 3</a></li>
+    </ul>
+  </nav>
+  <article class="content">
+    <h1>ATP Welcome Kits</h1>
+    <ol>
+	  	<li>If new month, create new job folder. Copy over Links folder from previous month. Otherwise, go straight to step 2.</li>
+	  	<li>Create a folder for current week's welcome kit using naming convention "&lt;mm.dd.yy&gt;".</li>
+	  	<li>Copy template fie from previous week (or previous month). Rename using naming convention "&lt;job number&gt; ATP Welcome Ltr &lt;mm.dd.yy&gt;".</li>
+	  	<li>Move Excel file mailing list into current week folder.</li>
+	  	<li>Open mailing list and select all records.</li>
+		<li>Click on Sort &amp; Filter, select Custom Sort. Make sure "My data has headers" is checked. Under "Sort By" select "insert".<br />
+		<img src="../../images/WelcomeKit/Sort by insert.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Create a new column called "order", select the column and right click. Select "format cells", select "Text" under category and click OK.</li>
+		<li>Enter "001" and "002" in first two rows, and pull down to number all rows in mailing list. Make sure that the total number of records matches the job jacket.<br />
+		<img src="../../images/WelcomeKit/numbering by order.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Next, select the "startDate" row,right click and select "format cells" again. Under Category, select "Date" and select the month, date and year format (example March 14, 2012).<br /><img src="../../images/WelcomeKit/date format.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Save the updated Excel file as a CSV (comma delimited) file with the naming convention "&lt;job number&gt; ATP Welcome List &lt;mm.dd.yy&gt;.csv".</li>
+		<li>Open up the Indesign template file. Open the Data Merge tab, click on dropdown list in top right corner and then click on "Select Data Source". Click OK in alert box.<br />
+		<img src="../../images/WelcomeKit/data merge tab.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Navigate to the current folder, select the mailing list saved in step 10, and click OK in the next box. check "preview" in the bottom corner of the Data Merge tab. Mailing list headers should match template, with content matching the first record.</li>
+	  	<li>Click on the dropdown list in top right corner of the Data Merge tab, click on "Create Merged Document", make sure "All Records" is checked in next box, and hit OK. If everything is correct, an alert box with the text "No overset text was generated when merging records" should appear. Click OK.</li>
+	  	<li>Save the merged file as "&lt;job number&gt; ATP Welcome Ltr &lt;mm.dd.yy&gt;merged" (add "merged" to the end of the file name saved in step 3.)</li>
+	  	<li>Scroll through merged document to confirm that the number of pages matches the expected number of records, and that there are no unexpected reflow issues.</li>
+	  	<li>&nbsp;Select File&gt;Export or Cntrl-E, to export to PDF. Click Save, and in the Export Adobe PDF dialog box click on Preset and scroll down to “Fiery Optimized wBleed &amp; Crops. Hit OK to save PDF.<br />
+		<img src="../../images/WelcomeKit/export pdf.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+	  	<li>&nbsp;When PDF is created, it should be automatically opened. Scroll through pages to ensure it’s correct. </li>
+	  	<li>&nbsp;Drag and drop the PDF file to the Fiery Command Workstation app “Held” hotfolder.<br />
+		<img src="../../images/WelcomeKit/drag and drop to fiery.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Load 12x18 70# uncoated text into the printer. &nbsp;</li>
+		<li>Right click on PDF file in Fiery Command Workstation at Printer, and select “Impose”.<br /><img src="../../images/WelcomeKit/Impose.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>In Imposition window, click on the Template dropdown and scroll down to ATP Welcome Kit. This preset imposes the PDF into a 4up imposition with crops &amp; bleed for a 12x18 sheet.<br /><img src="../../images/WelcomeKit/choose template.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+	  	<li>Close and save the imposition file. Delete the original file, it won’t be printed. Original file should still be highlighted.<br /><img src="../../images/WelcomeKit/delete original file.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+		<li>Double click on imposed file. In the Job Properties window that appears, click on the Quick Access tab. In the Face dropdown list, select Face up - normal order. Under the paper catalog, select the 70# Uncoated Text that was loaded in step 19. Click on Print to run job.<br /><img src="../../images/WelcomeKit/print options.jpg" width="50%" alt="Sorting in Excel" onclick="window.open(this.src, '_blank');"/></li>
+    </ol>
+
+  </article>
+  <aside class="side">
+    <p>Sidebar</p>
+  </aside>
+		<footer class="main-footer"><p>Copyright 2022 Futch Printing&nbsp;&nbsp;</p></footer>
+</div>
+</body>
+</html>

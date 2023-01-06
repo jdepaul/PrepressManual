@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="../../css/pages.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="wrapper">
+  <header class="main-head">
+    <h4 class="page-header">Futch Printing &amp; Mailing Inc.</h4>
+    <h4 class="page-header">PrePress Manual&nbsp;</h4>
+  </header>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="../../index.html">Main Page</a></li>
+      <li><a href="">Nav 2</a></li>
+      <li><a href="">Nav 3</a></li>
+    </ul>
+  </nav>
+  <article class="content">
+    <h1>Bulk Mailer</h1>
+	  <ol>
+		  <li>Log onto computer - password is futch4606</li>
+		  <ul>
+			  <li>If printing on Pitney Bowes, restart PC before continuing</li>
+			  <li>If printing and addressing at same time, continue to log on</li>
+		  </ul>
+		  <li>Create new job folder in upstairs mailing lists. Using naming convention “&lt;job number&gt; &lt;customer&gt;”.</li>
+		  <li>Open newly created job folder. Open shortcut to “1 New mailing lists”. </li>
+		  <li>Cut and paste mailing list from 1 New mailing lists to current job folder (Highlight file, Cntrl-X to cut, Cntrl-V to paste).</li>
+		  <li>Open list in Excel. On mailshop PC, it will be necessary to open Excel, click on the Office menu at top left, and click on Open. Navigate to the folder for the current job, select the Excel file copied over in step 4, and open.</li>
+		  <li>Pull out a copy of the mailing lists processing results sheet and begin filling out the sheet. Fill in date processed, job number, customer, job name, and then look on back of job jacket for the permit number and mailing class information. If not there, bring job jacket back to CSR for updated information before continuing.</li>
+		  <li>Back in Excel, check the top line of the Excel file. These should be your field names. Normally we should have something like “First name”, “last name”, “address” or “address1”, “address 2”, “city,” “state” and “zip”. Sometimes there will be a “business”. Column headers may not always match completely in spelling and may not always include all fields but should generally be similar to above. See Aga or CSR if any questions on list. Write the field names in the blank spot on the results sheet.</li>
+		  <li>Note: If field names are on 2nd line, and the top line is not needed for mailing, select the top line and delete. The first line needs to be the field names for Bulk Mailer to use them.</li>
+		  <li>Scroll to bottom of list to check that number of records equals the number written on back of job jacket. Write this number next to “initial count” on results sheet. At the very bottom of the list, add Aga &lt;day of mailing&gt; Futch, 4606 Shirley Avenue, Jacksonville, FL 32210 (each into appropriate field) and save the list as “
+	      &lt;job number&gt; &lt;customer&gt; &lt;job name&gt;.xlsx”.</li>
+		  <li>Open Bulk Mailer Professional program.</li>
+		  <li>Double click on New Mailing Wizard. In dialog box, click on “save as” and navigate to job folder. Name the job as “&lt;job number&gt; &lt;customer&gt; &lt;job name&gt;.” Wait for the name field to match what you just typed, then hit “Add”. Wait a few moments as the PC creates the job files needed.</li>
+		  <li>Click on the Import/Export tab on the left side menu, then double click on Import Wizard. Click Next. In this dialog box, click on “Select File”. Navigate to the job folder and double click on the excel file saved in step 8, then click on Next.  Make sure checkbox for “first row contains field names” is checked. Then click next.  In next dialog box, double check that each field name from the excel file on the left is correctly mapped to the bulk mailer field name on the left. If necessary, map the field names by highlighting an unmapped field on the left (the Excel field) and then highlighting the correct field on the right (the Bulk Mailer field) and click on “map” to join these fields.  Click next, then Finish. Once processing is complete, click “close”.</li>
+		  <li>Click on the Address Quality tab, and under Address Correction click “start”. Click Next -&gt; Next -&gt; On this screen, check the Casing settings. For most jobs, unless otherwise specified by CSR, casing should be left on Upper and both check boxes should be checked. Click Next -&gt; Next -&gt; Finish.</li>
+		  <li>Once address correction has finished processing, note the number of foreign errors, and write this number on the results sheet next to Uncorrected. Click on Close.</li>
+		  <li>Click on the Groups tab, then double click on All Uncorrected Records. A pop-up message will appear, click Yes.</li>
+		  <li>Click on the Views tab, and double click on “Full Basic Address Incl Error Message”. Scroll over to the left until Error Description column is visible. Click on Error Description at top to highlight whole column, and sort by A to Z.</li>
+		  <li>Primary number invalid and Invalid Primary - not much you can correct here usually.</li>
+		  <li>Multiple possible matches with similar street names were found but with no exact matches - may occasionally be able to fix these but don’t put in a lot of effort.</li>
+		  <li>Street name invalid - easiest to fix. Usually a misspelled name.</li>
+		  <li>How to correct addresses: Highlight the address under addressline1, click on the “check” at top to open the Address Browser window. You should now look for streets that might closely match the original address line. Make sure zip code matches. May not be able to find a correct address.</li>
+		  <li>Highlight error message again and resort the errors A -&gt; Z. Corrected addresses will disappear. The number at bottom left in “current count” is your final uncorrected records. Write that down on the results sheet. Subtract that from the initial uncorrected records, and that is how many fixed records you should have. Write that down also. Check the customer permit info excel file and see how customer prefers to handle uncorrected records - either excluded from mailing or included with mailing.</li>
+		  <li>Click Next -&gt; Next -&gt; In the Client dialog box, find the customer this job is being processed for. If you can’t find the customer, check with Aga or CSR. Client may be expired or named slightly differently. </li>
+		  <li>Next -&gt; Next -&gt; Casing: Casing should match your settings from step&nbsp;</li>
+		  <li>Next -&gt; Finish.</li>
+		  <li>Click Next -&gt; In Duplication Search Task dialog box, choose the kind of search based on customer preferences.&nbsp; </li>
+		  <li>Still in Address Quality tab, click Start under Duplication Search.
+		  <ul>
+			<li>Address, Last Name and First Name - This will search for all addresses where the whole name matches exactly. Write the number of deleted records on Results sheet next to “Exact Deleted”. </li>
+			<li>Basic Address Only - Will search for all names at any given address. Write the number of deleted records next to “Address Only deleted”.</li>
+			<li>Other Options - use when instructed by CSR, Aga, or customer preferences (for ex. - Address and Loose Last Name will find family members at same address).</li>
+		  </ul>
+		  </li>
+		  <li>Next -&gt; Next -&gt; Next -&gt; Next -&gt; Finish. After processing finishes, click on Review. Generally process one group at a time. Make sure the box next to the record you wish to delete is checked. Close when done.&nbsp;</li>
+		  <li>Click on the Mail Sort tab. Scroll through the preset mail sorts for the customer and job description that most closely matches the current job (ex. Evangel Temple weekly postcard will use “Evangel Temple WEEKLY postcard” mail sort). Double click. </li>
+		  <li>In the Mail Sort Wizard window, make sure the piece dimensions and weight are correct. Weight 10 pieces on the scale and use calipers to get thickness. Enter that information and write on results sheet. In the Job/Reference ID field enter the job number and 1-3 letters to identify the customer and job. Bulk mailer only allows limited characters in this field. Mailing Date defaults to day of processing, change this date to day of desired mailing if needed. (Some customers will want to mail on a specific day but want postage ahead of time).</li>
+		  <aside>Note: Double check the trays under Advanced Options. Changing the weight may sometimes change the default trays from 1 &amp; 2 Foot Trays to EMM trays. 6x9 postcards and smaller and most newsletters can use the regular trays, longer postcards need the EMM trays. To change trays, click on Traying under Advanced Options, open drop down list labeled Container type at the top, and select the containers you want to use.</aside>
+		  <li></li>
+	  </ol>
+ 
+  
+
+
+ 
+ 
+Hit OK to begin sorting the mail. When processing finishes, uncheck all reports except for Qualification Report and Postage Report. Click on View, scroll through the pages to look for possible errors, and if everything looks correct hit Print. Select Preferences to specify double sided if desired, and hit OK to print. Close this View. 
+Now check Tray Labels, and click on Save PDF. Save this file as “<job number> <customer> <job description> PresortReports.pdf”.
+Uncheck all reports except for tray Labels. Hit View. Open middle draw on left of desk, pull out only as many tray tag sheets as needed, and place on top of paper in printer. Hit Print to print out the tray tags. Close the Mail Sort Progress window. 
+Using a highlighter whose color matches the results sheet, circle the customer, indicia, final quantity, date, and total postage amounts on the presort report top sheet. Fill out Final Count and Postage Used lines on results sheet, and staple sheets together except for tray tags. Highlight a strip down the side of the tray tags, being careful not to highlight the bar codes. 
+Click on the Submit tab, and hit Start. Next -> Next -> Next -> Under Mailing Title, enter <job number> <customer name> <job description>. Check that the mailing date is correct. Click Next -> Finish. Write the time and date on the Submitted to PostalONE line on results sheet. 
+While submission is processing, look at tray tags and get correct number and type of trays. 
+
+If Printing at Pitney Bowes (PB):
+Plug in conveyor belt, turn on KBS dryer (both red switches) and roll dryer over conveyor belt. For coated pieces, turn conveyor belt to high speed. Uncoated items, slow the belt down.  
+Pour some water onto a cotton square, lift up the printheads on the PB, and wipe to clean out dried ink. Adjust the height of the printhead with the blue knob in front - raise for thicker pieces like newsletters or lower for thinner postcards. 
+Adjust the width of the feeder guides using a mailing piece. Slide one piece between the rollers and adjust the tightness so that the piece slides in and out with the proper amount of resistance (use your judgment).  
+Stack a couple of inches worth of mailing pieces in the feeder.  
+In Bulk Mail Professional, click on the Print Mail tab. Scroll down and look for the mailing templates that begin with PB - these are set for the PB printer, the older templates will NOT print.  
+Double click on the appropriate template (for Evangel Temple: use PB - Evangel Temple - postcard NEWer) 
+You will now see a screen showing which fields are printing and what lines they’re printing on. Check to make sure all fields noted on your results sheet are present. Click on the “Go to Preview Mode” button - top left icon that looks like a page with a magnifying glass.  
+Click on Print Records: 2nd icon - looks like a printer - check Current Page and click print. 39. One piece should be printed. Check location of mailing label and quality of print. Make adjustments as needed.  
+If printed address looks good, click on Print Records again and under Page Range enter 1 to 3, take these to Aga or CSR for approval. 
+If job is approved, hit Online on PB, push menu button, Plus button to get to #6 Clear Counter. Hit Enter, Plus to clear the counter. Hit Online to bring printer back online.  
+In Bulk Mailer, click on Print Records, check Tray range to print job out with pauses between trays, and hit Print to begin addressing the job.
+
+
+  </article>
+  <aside class="side">
+    <p>Sidebar</p>
+  </aside>
+		<footer class="main-footer"><p>Copyright 2022 Futch Printing&nbsp;&nbsp;</p></footer>
+</div>
+</body>
+</html>
