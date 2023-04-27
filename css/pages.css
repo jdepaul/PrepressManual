@@ -92,6 +92,56 @@ ol img {
 	line-height: 1.35em;
 }
 
+.subitem-wrapper {
+	display: flex;
+}
+
+.subitem-left {
+	display: flex;
+	width: 70%;
+}
+
+.subitem-right {
+	display: flex;
+	width: 25%;
+	align-content: center;
+}
+
+.subitem-wrapper img {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	margin-top: 0;
+	width: 75px;
+	align-content: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: lightgrey;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 15px;
+}
+
+.flex-container > div {
+  	width: 50%;
+	padding: 15px;
+  	text-align: center;
+}
+
+.example-img {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 5px;
+	position: relative;
+	align-content: center;
+	width: 45%;
+}
 
 @media (min-width: 500px) {
   .wrapper {

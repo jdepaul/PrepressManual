@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: lightgrey;
+}
