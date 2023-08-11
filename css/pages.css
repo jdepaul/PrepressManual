@@ -81,7 +81,8 @@ ol img {
 	border: 1px solid #003473;
 	border-radius: 3px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	margin-top: 1em;
+	margin-top: 1em;  
+	width: 45%;
 }
 
 .notes {
@@ -143,6 +144,27 @@ ol img {
 	width: 45%;
 }
 
+.photogrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: #003473;
+}
+
+.photogrid img {
+	width: 80%;
+}
+
+.splitgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.splitgrid img {
+	width: 80%;
+	margin-left: 10px;
+}
+
+
 @media (min-width: 500px) {
   .wrapper {
     grid-template-columns: 1fr 3fr;
@@ -157,7 +179,7 @@ ol img {
     display: flex;
     justify-content: space-between;
   }
-}
+} 
 
 @media (min-width: 700px) {
   .wrapper {
@@ -171,4 +193,9 @@ ol img {
    nav ul {
      flex-direction: column;
    }
+}
+
+.emNote {
+	display: block;
+	padding-top: .5em;
 }

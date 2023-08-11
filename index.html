@@ -5,21 +5,56 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Futch Graphics Department Manual</title>
+<script src="javascript/index.js"></script>
 <link href="css/frontpage.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!-- Main Container -->
-<div class="container"> 
+<!-- Header Container -->
+<div class="top_container"> 
   <!-- Header -->
   <header class="header">
 	  <h4 class="header ">Futch Printing &amp; Mailing Inc.</h4>
 	  <h4 class="header">Prepress Manual</h4>
   </header>
-    <h3 class="sectionHead">Operation of Equipment</h3>
-
-
-
+    <h3 class="sectionHead">Graphics Department Manual of Operations</h3>
   </div>
-<!-- Main Container Ends -->
+<!-- Header Container Ends -->
+	<div class="body_container">
+		<p>This user manual is subdivided into 3 main sections, separated by functions. <strong>Basic Machine Operations</strong> contains detailed instructions on operating the equipment in the Graphics department. <strong>Job Instructions</strong> provides information on how to process specific jobs or projects for particular customers. The final section <strong>Important Information</strong> contains reference information such as technical support phone numbers and important contacts.</p>
+		
+		<div class="tab">
+			<button class="tablinks active" onClick="openSection(event, 'Ops')">Basic Machine Operation</button>
+			<button class="tablinks" onClick="openSection(event, 'Job')">Job Details</button>
+			<button class="tablinks" onClick="openSection(event, 'Info')">Important Information</button>
+		</div>
+		
+		<div id="Ops" class="tabcontent" style="display: block">
+			<h4>SCREEN platemaker</h4>
+			<h4><a  href="sections/machines/OKI_Envelopes.html">Oki</a></h4>
+			<h4>Konica-Minolta 2070</h4>
+			<h4>Konica-Minolta 6136</h4>
+			<h4>Konica-Minolta 7000</h4>
+			<h4>Roland</h4>
+			<h4>Graphtec plotter</h4>
+			<h4>Canon</h4>
+			<h4><a href="sections/machines/Pitney_Bowes.html">Pitney Bowes</a></h4>
+		</div>
+		
+		<div id="Job" class="tabcontent">
+			<h4><a href="sections/jobs/ATP_Welcome_Kits.html">ATP Welcome Kit</a></h4>
+			<h4><a href="sections/jobs/Bulk_mailer.html">Bulk Mailer</a></h4>
+			<h4><a href="sections/jobs/Faith_Church_Bleed.html">Faith Church funeral programs</a></h4>
+			<h4>Flatbed Image Prep</h4>
+			<h4>Laser Cutter image prep</h4>
+			<h4><a href="sections/jobs/Cut_Paths.html">Cutpaths</a></h4>
+		</div>
+		
+		<div id="Info" class="tabcontent">
+			<h4>Phone Numbers</h4>
+			<h4>Passwords</h4>
+			<h4>Production Notes</h4>
+		</div>
+     </div>
+	<div class="footer-wrapper"><footer class="footer"><img src="images/Futch logo white.svg" alt="Futch Graphics logo"/> Copyright 2023</footer></div>
 </body>
 </html>
